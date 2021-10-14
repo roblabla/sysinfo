@@ -399,7 +399,7 @@ impl SystemExt for System {
         self.swap_free
     }
 
-    // need to be checked
+    // TODO: need to be checked
     fn used_swap(&self) -> u64 {
         self.swap_total - self.swap_free
     }
